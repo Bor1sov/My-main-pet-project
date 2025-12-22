@@ -1,0 +1,28 @@
+*{
+    color:white;
+}
+/* ////////////АДАПТИРОВАТЬ//////////// */
+.main__hero__banner{
+    width: 80%;
+    margin: 10px auto 0;
+    padding: 40px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(9, 28, 137);
+}
+.main__hero__banner__photo-and__discription{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main__hero__banner__photo{
+    border-radius: 15px;
+}
+.main__hero__banner__discription__title{
+    margin-top: 50px;
+    text-align: center;
+}
+.main__hero__banner__discription__faq,.main__hero__banner__discription__way{
+    margin-top: 25px;
+}
+/* ////////////////////////////////////////// */
