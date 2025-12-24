@@ -2,7 +2,7 @@ import "./hero.css";
 function Hero() {
   return (
     <section className="about">
-      
+      {/* SECTION */}
       <div className="main__hero__banner">
         
         {/* PHOTO & DISCRIPTION*/}
