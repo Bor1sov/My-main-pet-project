@@ -37,7 +37,22 @@ function Main() {
     <>
       <div className="paralax">
         <h1 className="paralax__text-layer">This is my main project</h1>
-        <p className="paralax__text__subtitle">Future WEB development in my hand</p>
+        <img
+          src="../../../public/photos/1st.png"
+          className="first-star"
+        ></img>
+        <img
+          src="../../../public/photos/1st.png"
+          className="first-star_back"
+        ></img>
+        <img
+          src="../../../public/photos/2st.png"
+          className="second-star"
+        ></img>
+        <img
+          src="../../../public/photos/3st.png"
+          className="third-star"
+        ></img>
         <img
           src="../../../public/photos/FirstLayer.png"
           className="first-layer"

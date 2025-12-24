@@ -8,24 +8,95 @@
     width: 100%;
     height: 100vh;
     position: relative;
+    overflow: hidden;
 }
 .paralax__text-layer{
     position: absolute;
+    font-size: 68px;
     width: 500px;
     text-align: center;
     z-index: 9999;
-    top:40%;
+    top:30%;
     left:30%;
     right:50%;
+    animation:light-text 5s infinite;
+    text-shadow: 0 5px 25px;
 }
-.paralax__text__subtitle{
+
+@keyframes light-text {
+    0%{
+        opacity: 0.6;
+
+    }
+    20%{
+        opacity: 0.8;
+
+    }
+    40%{
+        opacity: 1;
+
+    }
+    60%{
+        opacity: 1;
+
+    }
+    80%{
+        opacity: 0.8;
+
+    }
+    100%{
+        opacity: 0.6;
+    }
+}
+.first-star{
     position: absolute;
-    width: 500px;
-    text-align: center;
-    z-index: 9999;
-    top:50%;
-    left:30%;
-    right:50%;
+    width: 100%;
+    z-index: 999999;
+    animation: slide-infinite 40s linear infinite;
+}
+.first-star_back{
+    position: absolute;
+    width: 100%;
+    z-index: 9999999;
+    animation: slide-infinite-back 40s linear infinite;
+}
+.second-star{
+    position: absolute;
+    width: 100%;
+    z-index: 9999999;
+    animation: slide-infinite 25s linear infinite;
+}
+.third-star{
+    position: absolute;
+    width: 100%;
+    z-index: 99999999;
+    animation: slide-infinite-back 30s linear infinite;
+}
+@keyframes slide-infinite {
+    0%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(100%);
+        opacity: 1;
+    }
+}
+@keyframes slide-infinite-back {
+    0%{
+        transform: translateX(100%);
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }
 .first-layer{
     width: 100%;
