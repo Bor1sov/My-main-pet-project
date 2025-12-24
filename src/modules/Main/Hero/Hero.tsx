@@ -1,8 +1,10 @@
 import "./hero.css";
 function Hero() {
   return (
-    <>
+    <section className="about">
+      
       <div className="main__hero__banner">
+        
         {/* PHOTO & DISCRIPTION*/}
         <div className="main__hero__banner__photo-and__discription">
           {/* PHOTO */}
@@ -72,7 +74,7 @@ function Hero() {
           </ul>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 export default Hero;

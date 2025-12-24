@@ -2,6 +2,12 @@
     color:white;
 }
 /* ////////////АДАПТИРОВАТЬ//////////// */
+.about{
+    margin: 0;
+    padding: 0;
+    padding-top: 600px;
+    background-color: #5B9BD5;
+}
 .main__hero__banner{
     width: 80%;
     margin: 10px auto 0;
@@ -9,7 +15,7 @@
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(9, 28, 137);
+    background-color: #0A2D5F;
 }
 .main__hero__banner__photo-and__discription{
     display: grid;
